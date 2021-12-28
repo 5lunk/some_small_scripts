@@ -26,7 +26,8 @@ CHECK2=$(mount | grep /media/vmusb | cut -d ' ' -f 2)
 if [ "$CHECK2" == "on" ] 
 then
 	COUNTER=3
-        until [ $COUNTER -lt 3 ] ; do
+        until [ $COUNTER -lt 3 ]
+	do
 		eval COLUMN=$COUNTER
                		VMNAME=$(virsh list --all | awk '{print $2}' | sed -n "${COLUMN}p")
               		VMSTAT=$(virsh list --all | awk '{print $3}' | sed -n "${COLUMN}p")
