@@ -1,20 +1,16 @@
-# some_small_scripts
+# some_small_scripts  
 
 ## housekeeper_speedup
-Скрипт для "ускорения" утилиты housekeeper. Позволяет эффективнее использовать паузы между запусками (конфигруация Zabbix позволяет запускать housekeeper не чаще чем раз в час).
-
+Script to "speed up" the housekeeper utility. Allows you to use pauses between launches more efficiently (Zabbix configuration allows you to run housekeeper no more than once per hour).  
 
 ## kvm_backup
-Скрипт для бэкапа KVM виртуалок на флешку. Писался давно, ни разу не использовался, оригинальная орфография сохранена.
-
+Script for backup KVM virtual machines on a flash drive. Written a long time ago, never used.  
 
 ## package_search
-Простенький скрипт для проверки установленных пакетов (если нет возможности использовать системы управления конфигруациями). Для работы нужен `sshpass`.
-
+A simple script to check installed packages (if it is not possible to use configuration management systems). Uses `sshpass` to connect.  
 
 ## syslog_filter
-Триггер с черной дырой для MySQL базы syslog-сервера. Использовать в крайних случаях, главное не забыть, что он установлен.
- 
+Black hole trigger for syslog database (MySQL).  
 
 ## syslog_host-to-ip
-Костыль для MySQL базы syslog-сервера подменяющий hostname на ip (если нет DNS). Для работы нужно заранее подготовить таблицу соответствия.
+Trigger for syslog database (MySQL) replacing hostname with ip (if there is no DNS). A lookup table is required.
