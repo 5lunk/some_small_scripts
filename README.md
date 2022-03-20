@@ -12,6 +12,9 @@ A simple script to check installed packages (if it is not possible to use config
 ## optimize_db  
 Script for syslog DB optimization (MySQL).
 
+## pg_backup  
+Script for Postgres DB backup.
+
 ## syslog_filter
 Black hole trigger for syslog database (MySQL).  
 
