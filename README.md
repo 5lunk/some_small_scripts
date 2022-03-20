@@ -9,8 +9,12 @@ Script for backup KVM virtual machines on a flash drive. Written a long time ago
 ## package_search
 A simple script to check installed packages (if it is not possible to use configuration management systems). Uses `sshpass` to connect.  
 
+## optimize_db  
+Script for syslog DB optimization (MySQL).
+
 ## syslog_filter
 Black hole trigger for syslog database (MySQL).  
 
 ## syslog_host-to-ip
 Trigger for syslog database (MySQL) replacing hostname with ip (if there is no DNS). A lookup table is required.
+
